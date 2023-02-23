@@ -55,8 +55,7 @@ function App() {
 
               <div>
                 <p>
-                  As of now, I spend most of my time learning and studying. Just
-                  a couple weeks ago I finished Full Stack Developer Courses
+                  As of now, I spend most of my time learning and studying. I finished Full Stack Developer Courses
                   with a primary focus on
                   <span className="intro">
                     {" "}
