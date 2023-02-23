@@ -60,7 +60,7 @@ function Project() {
           <small className="text-muted"><a href="https://posts-app-nanaier.netlify.app/" className="links" target="_blank">link to deploy</a></small>
           <div className="linksBlock">
           <GitHubIcon/>
-            <small className="text-muted"><a href="https://github.com/Nanaier/bof-posts" className="links" target="_blank">link to src code</a></small>
+            <small className="text-muted"><a href="https://github.com/Nanaier/posts-app" className="links" target="_blank">link to src code</a></small>
             </div></Card.Footer>
         </Card>
       </CardGroup>
