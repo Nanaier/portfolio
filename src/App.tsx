@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Container from "react-bootstrap/Container";
 import Avatar from "@mui/material/Avatar";
-import photo from "./assets/profile.png";
+import photo from "./assets/photo.jpg";
 import ControlledTabs from "./components/Experience";
 import Project from "./components/ProjectsCards";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
