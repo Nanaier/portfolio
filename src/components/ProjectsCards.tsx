@@ -27,7 +27,7 @@ function Project() {
                 Redux Toolkit, Typescript, and Fetch API
               </span>{" "}
               relatively fast. While working on the project I got a better
-              understanding of React and Redux, and feels comfortable using
+              understanding of React and Redux, and feel comfortable using
               those libraries for future projects.
             </Card.Text>
           </Card.Body>
@@ -47,12 +47,12 @@ function Project() {
               <span className="intro">REST API </span>
               and displays them on different pages accordingly. The app features
               Post and User Details pages, a Home page (Posts page), and a Users
-              page. Building this project, Anastasiia learned to use{" "}
+              page. Building this project, I learned to use{" "}
               <span className="intro">
                 Redux Toolkit, Typescript, React, Material UI, and Fetch API
               </span>
-              , and advanced her skills in using React/Redux for fetching and
-              displaying data, and her knowledge of using Material UI improved
+              , and advanced my skills in using React/Redux for fetching and
+              displaying data, and my knowledge of using Material UI improved
               tremendously.
             </Card.Text>
           </Card.Body>
@@ -78,7 +78,9 @@ function Project() {
               input the number he wants using the keyboard. If the player is
               stuck at some point, he can use the Hint button(up to 3 times) or
               press the Solve button to see the fully solved riddle. Also, the
-              player can save the last game he played to return to it later.
+              player can save the last game he played to return to it later. 
+              During the process of creating this app, I learned to create GUI 
+              using Python libraries and learned to develop algorithmic puzzle solvers.
             </Card.Text>
           </Card.Body>
           <Card.Footer className="linksBlock">
