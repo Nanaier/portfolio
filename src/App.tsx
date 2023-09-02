@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Container from "react-bootstrap/Container";
-import Avatar from "@mui/material/Avatar";
 import photo from "./assets/photo.jpg";
 import ControlledTabs from "./components/Experience";
 import Project from "./components/ProjectsCards";
@@ -38,40 +36,35 @@ function App() {
             <div className="about-text">
               <div>
                 <p>
-                  Hello! My name is Anastasiia. I am currently in my second year
+                  Hello! My name is Anastasiia. I am currently in my third year
                   of studying
                   <span className="intro">
                     {" "}
-                    Information Systems Software Engineering
+                    Information Systems Software Engineering{" "}
                   </span>
-                  . I started programming with Pascal in 2018 and since then
-                  I've continued to learn even more advanced programming
-                  languages like Python, and C/C++. Besides my university
-                  studies, I have done{" "}
-                  <span className="intro"> non-degree certificates</span> to
-                  learn more about these and other technologies.
+                  at the National Technical University of Ukraine “Igor Sikorsky
+                  <span className="intro"> Kyiv Polytechnic Institute</span>”. I
+                  can describe myself as highly organized and motived to work
+                  and study.
                 </p>
               </div>
 
               <div>
                 <p>
-                  As of now, I spend most of my time learning and studying. I finished Full Stack Developer Courses
-                  with a primary focus on
-                  <span className="intro">
-                    {" "}
-                    Front-End Development and Cloud Computing
-                  </span>
-                  . The main skills I've gained throughout the duration of my
-                  studies are:
+                  As of now, I spend most of my time working and studying. I am
+                  currently working as a Cloud Computing/Data integration
+                  <span className="intro"> intern</span>. The primary
+                  technologies we are using and the ones I'm the most proficient
+                  in are:
                 </p>
               </div>
               <ul className="ulist">
-                <li className="list">Javascript</li>
                 <li className="list">Typescript</li>
-                <li className="list">React.js</li>
-                <li className="list">Python</li>
+                <li className="list">Javascript</li>
                 <li className="list">AWS</li>
                 <li className="list">MySQL</li>
+                <li className="list">React.js</li>
+                <li className="list">Python</li>
               </ul>
             </div>
             <div className="about-Photo">
@@ -116,19 +109,20 @@ function App() {
                 </a>
               </IconButton>
               <IconButton>
-                <a href="https://github.com/Nanaier" target='_blank'>
+                <a href="https://github.com/Nanaier" target="_blank">
                   <GitHubIcon sx={{ color: "#60E8CD", fontSize: 50 }} />
                 </a>
               </IconButton>
               <IconButton>
-                <a href="https://www.linkedin.com/in/anastasiia-lysenko-29ba43245/" target='_blank'>
+                <a
+                  href="https://www.linkedin.com/in/anastasiia-lysenko-29ba43245/"
+                  target="_blank"
+                >
                   <LinkedInIcon sx={{ color: "#60E8CD", fontSize: 50 }} />
                 </a>
               </IconButton>
             </div>
-            
           </div>
-          
         </div>
         <h6 id="credits">This webpage was created by Anastasiia Lysenko.</h6>
       </div>

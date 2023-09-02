@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 
@@ -12,6 +12,18 @@ function ControlledTabs() {
       onSelect={(k) => setKey(k!)}
       className="mb-3"
     >
+      {/* In progress */}
+      {/* <Tab eventKey="eBrands" title="eBrands">
+        <h3 className="headers">SOFTWARE DEVELOPER INTERN</h3>
+        <p>eBrands | Helsinki, Finland | May 2023 - Present</p>
+        <ul>
+          <li className="list">
+            Main focus of the internship was data processing and Cloud computing. During the course of the internship I  
+          </li>
+          <li className="list"></li>
+          <li className="list"></li>
+        </ul>
+      </Tab> */}
       <Tab eventKey="Integrify" title="Integrify">
         <h3 className="headers">SOFTWARE DEVELOPER TRAINEE</h3>
         <p>Integrify | Helsinki, Finland | September 2022 - February 2023</p>
@@ -42,26 +54,6 @@ function ControlledTabs() {
             <span className="intro">Amazon Web Serivces & Microsoft Azure</span>
             , along with an introduction to Software architechture &
             Cybersecurity.
-          </li>
-        </ul>
-      </Tab>
-      <Tab eventKey="McDonald's" title="McDonald's">
-        <h3 className="headers">KITCHEN STAFF</h3>
-        <p>McDonald's | Helsinki, Finland | August 2022 - Present</p>
-        <ul>
-          <li className="list">
-            <span className="intro">Responsible</span> for the restaurant's
-            kitchen tasks, e.g. cooking, and{" "}
-            <span className="intro">maintaining neatness</span>.
-          </li>
-          <li className="list">
-            Collaborating with 45 colleagues to{" "}
-            <span className="intro">ensure smooth customer service</span>.
-          </li>
-          <li className="list">
-            <span className="intro">Working under high pressure</span> requires
-            controlling stress and{" "}
-            <span className="intro">prioritizing tasks</span>.
           </li>
         </ul>
       </Tab>
